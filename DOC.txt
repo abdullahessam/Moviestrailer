@@ -1,0 +1,10 @@
+include Movie.py
+include fresh.py
+use calss movie to store movies info
+in this order sapreated with ","
+1- title
+2- storyline
+3- poster link
+4- youtupe link
+
+then use fresh.open_movies_page methoud and it take 1 pramter array of moves 

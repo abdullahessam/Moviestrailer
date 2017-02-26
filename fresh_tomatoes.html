@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Fresh Tomatoes!</title>
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+<!-- bxSlider Javascript file -->
+<script src="jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="jquery.bxslider.css" rel="stylesheet" />
+
+</head>
+
+  <body>
+    <!-- Trailer Video Modal -->
+    <div class="modal" id="trailer">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+            <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+          </a>
+          <div class="scale-media" id="trailer-video-container">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Page Content -->
+    <div class="container">
+      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#"><img height="30px" width="30px" src="tomato.png"> Fresh Tomatoes Movie Trailers</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+    <ul class="bxslider">
+         
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="xkX8jKeKUEA" data-toggle="modal" data-target="#trailer">
+    <img src="http://www.moviezgalore.com/wp-content/uploads/1970/01/8x7ej0LnHdKUqilNNJXYOeyB6L9-2.jpg" width="220" height="342">
+    <h2>kingsman</h2>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="Ke1Y3P9D0Bc" data-toggle="modal" data-target="#trailer">
+    <img src="https://upload.wikimedia.org/wikipedia/ar/thumb/1/14/Iron_man_three_ver9.jpg/206px-Iron_man_three_ver9.jpg" width="220" height="342">
+    <h2>iron man 3</h2>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="wZdpNglLbt8" data-toggle="modal" data-target="#trailer">
+    <img src="https://upload.wikimedia.org/wikipedia/ar/thumb/f/f2/Finding_Nemo_poster_araby.png/232px-Finding_Nemo_poster_araby.png" width="220" height="342">
+    <h2>nemo</h2>
+</div>
+
+         </ul>
+<div id="bx-pager" class="row">
+  
+  <a data-slide-index="0" title=kingsman href=""><img class="col-lg-3 col-md-4" src="http://www.moviezgalore.com/wp-content/uploads/1970/01/8x7ej0LnHdKUqilNNJXYOeyB6L9-2.jpg" /></a>
+
+  <a data-slide-index="1" title=iron man 3 href=""><img class="col-lg-3 col-md-4" src="https://upload.wikimedia.org/wikipedia/ar/thumb/1/14/Iron_man_three_ver9.jpg/206px-Iron_man_three_ver9.jpg" /></a>
+
+  <a data-slide-index="2" title=nemo href=""><img class="col-lg-3 col-md-4" src="https://upload.wikimedia.org/wikipedia/ar/thumb/f/f2/Finding_Nemo_poster_araby.png/232px-Finding_Nemo_poster_araby.png" /></a>
+
+</div>
+    </div>
+    <script type="text/javascript" charset="utf-8" src="script.js">
+    </script>
+  </body>
+</html>
